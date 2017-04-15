@@ -60,7 +60,7 @@ public class UseNewFirefoxOnTravisTest {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.textToBePresentInElementLocated(
                 By.id("hello"),
-                "Hello, world!")
+                "Hello, world111!")
         );
     }
 
